@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    float: left;
+
+}
+.container {
+    width: 100%;
+    float: left;
+}.logo-area{
+    width: 30%;
+}
+.logo-area img {
+    width: 70%;
+    float: left;
+    padding: 10px 15%;
+}
+.menu-area {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+.menu-area a{
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.menu-area li{
+    display: inline-block;
+    margin: 50px 20px;
+
+}
+.search-area {
+    width: 30%;
+    float: left;
+
+}
+.search-area input {
+    margin: 50px 10px 50px 50px;
+    border-radius: 15px;
+    width: 75%;
+    font-size: 25px;
+}
+.search-area ::placeholder{
+    text-align: right;
+}
+.search-area input:hover {
+    background-color: rgb(54, 27, 90);
+}
+.search-area i {
+    font-size: 25px;
+    margin-top: 50px;
+}
+.main-area {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.main-area img{
+    width: 100%;
+}
